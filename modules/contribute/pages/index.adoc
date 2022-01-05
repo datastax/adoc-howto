@@ -1,0 +1,51 @@
+= Contributing to the Stargate documentation
+// Settings
+:hide-uri-scheme:
+// URLs
+:url-issues: https://github.com/stargate/docs
+:url-issues-doc: {url-issues}/issues
+
+Thank you for taking the time and effort to improve the Stargate documentation.
+
+== Reporting bugs and requesting enhancements
+
+All bugs and enhancements for the Stargate documentation are tracked using the {url-issues-doc}[GitHub issues in the repo].
+If you find an error or see room for improvement on a page, please don't keep it to yourself.
+Even if you don't plan to make the change yourself, we would still like to know what it is!
+Raise an issue and someone on the team will look at it.
+
+//******* You can also raise an issue by clicking the btn:[Feedback?] button in the bottom-right corner of any page on this site.
+
+=== How do I submit a good issue?
+
+Clear and descriptive title:: For example, "`Instructions for using collections in the Documents API do not work.`"
+
+Describe the problem or enhancement in full:: For any problem, describe it in detail, including any expected results and how they differ from the real results.
+This drastically reduces the time it takes to resolve the issue.
+
+For example,
+{url-issues-doc}/145 is an example of a well-written issue that points the technical writer to the changes required.
+
+== Contributing Changes
+
+We strongly encourage you to to contribute the changes you want to see to resolve an issue!
+
+You can submit simple changes, such as typo fixes and minor clarifications, using the <<simple>> workflow.
+For more extensive content changes or if you prefer to work locally, see the xref:workflow-overview.adoc[Contributing Workflow].
+
+[#simple]
+== Simple online edits
+
+For simple changes, like fixing a typo or reworking a sentence, you can edit the content directly
+on GitHub by clicking the btn:[Edit this page]
+// LLP: 10.08.21 Should we replace the button with an image in the default-ui? image:edit.svg[,16,role=icon] edit icon
+found on many of the documentation pages in the upper righthand corner.
+
+Once you've made your edits, replace the default commit message with a short description
+of your change, and click btn:[Commit Changes].
+Then follow the on-screen instructions to open a pull request.
+
+== Next steps
+
+. xref:install-git-and-editor.adoc[Install Git and an AsciiDoc editor].
+. xref:set-up-repository.adoc[Set up your local repository].

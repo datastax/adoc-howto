@@ -1,0 +1,35 @@
+= Build the documentation site locally
+:experimental:
+
+== Run Antora using npm
+
+We have `npm` run commands that can build the docs locally using the `site-local.yaml` file. Use this command to build the HTML rendering of the docs, so you
+can check them with a browser.
+
+. Open a terminal and switch into the _docs_ folder.
++
+[source, shell]
+----
+$ cd path/to/docs
+----
+
+. Run Antora using `npm` :
++
+[source, shell]
+----
+$ npm run build:local
+----
++
+The site generation is complete when the command prompt (`$`) reappears in the terminal.
+
+. Antora generates the site into a directory named _build/site_.
+Switch to it.
++
+[source, shell]
+----
+$ cd build/site
+----
++
+You'll be able to see the structure of the built documentation. 
+
+. Use a browser and `Open file` and find the page that you wish to check.

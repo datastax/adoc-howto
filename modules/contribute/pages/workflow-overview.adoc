@@ -1,0 +1,29 @@
+= Workflow overview
+
+This workflow is for frequent contributors and Stargate Docs team members who
+make major changes, add documents, examples, and images, and plan to work on the
+same set of changes over several days before requesting sign-off.
+
+== Workflow steps
+
+These steps, described under Setting Up Your Workspace, only need to be done
+once or the first time you plan to contribute to a repository:
+
+* [ ] xref:set-up-repository.adoc#fork-the-repository[Fork the repository] into your GitHub account.
+* [ ] xref:set-up-repository.adoc#clone-the-repository[Create a clone of the repository] on your device.
+* [ ] xref:set-up-repository.adoc#sync-with-the-upstream-repository[Connect your local repository with the upstream] repository.
+
+Most of the following steps are completed each time you make a contribution to a
+repository:
+
+* [ ] xref:repositories.adoc[Review each repository's requirements].
+* [ ] xref:repositories.adoc#dir-structure[Explore the component directory structure].
+* [ ] xref:create-branches.adoc#base-branch[Choose a base branch].
+* [ ] xref:create-branches.adoc#work-branch-atom[Create a working branch in Atom]
+or xref:create-branches.adoc#work-branch-cli[from the command line].
+* [ ] xref:edit-pages.adoc[Fix existing documentation]
+or xref:add-pages.adoc[create a new documentation page].
+* [ ] xref:build-site.adoc[Build the site locally and check your changes].
+* [ ] xref:send-pr.adoc#commit[Commit, rebase, and push your changes].
+* [ ] xref:send-pr.adoc#pr[Submit a pull request].
+//* [x] Make revisions to your pull request.

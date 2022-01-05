@@ -1,0 +1,24 @@
+site:
+  title: AsciiDoc How-to documentation
+  url: /contribute
+  start_page: contribute::index.adoc
+
+content:
+  edit_url: 'https://github.com/datastax/adoc-howto/blob/master/{path}'
+  sources:
+    - url: .
+      branches: HEAD
+
+ui:
+  bundle:
+    url: https://github.com/stargate/antora-ui-stargate/releases/download/v0.5/ui-bundle.zip
+  supplemental_files: ./supplemental-ui
+  # override the default _ dir for assets, as Jekyll will delete them
+  output_dir: assets
+
+asciidoc:
+  attributes:
+    source-highlighter: highlightjs
+    page-pagination: ''
+  extensions:
+  - ./lib/tabs-block.js

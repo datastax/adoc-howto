@@ -1,0 +1,87 @@
+= Create a working branch
+
+Always make a new working branch for your work, no matter how small the change.
+You can create a working branch in Atom or from the command line.
+
+[#base-branch]
+== Choose the right base branch
+
+A base branch contains the original source documentation.
+You create working branches from a base branch and send pull requests to a base branch for integration.
+A working branch isolates changes that solve a single issue.
+A pull request submitted from a working branch that only contains closely related changes is easier to test, review, and merge.
+
+// LLP 12.13.21 CHANGE TO MAIN
+The Stargate documentation https://github.com/stargate/docs[repositories] maintain one base branch: main.
+
+At the current time, we only maintain a single version of the Stargate docs.
+
+[#work-branch-atom]
+== Create a working branch in Atom
+
+=== Prerequisites
+
+* xref:install-git-and-editor.adoc#install-atom[Install Atom]  
+* xref:set-up-repository.adoc[Fork, clone, and configure the upstream and origin remotes] of a documentation repository
+
+=== Procedure
+
+. Start Atom.
+. If this is the first time you've worked on a repository, it may not appear in Atom's *Project* panel.
+Go to menu:File[Add Project Folder] and add the folder containing your local repository.
+. Select the image:repo.svg[,16,role=icon] repository directory that contains the files you want to edit.
++
+image::project-panel.png[,300,align=left]
+
+. <<base-branch,Choose the right branch>> to base your changes on.
+Click the image:git-branch.svg[,16,role=icon] branch icon at the bottom of the editor.
+In the modal window, select the desired base branch from the dropdown menu.
++
+image::select-base-branch.png[,380,align=left]
+
+. Pull the latest changes from the upstream repository using `fetch` at the bottom of the editor
+
+. Create a new working branch from the base branch.
+Click the image:git-branch.svg[,16,role=icon] branch icon.
+In the modal window, click btn:[New Branch], and enter the name of the new working branch in the form field.
++
+--
+image::new-branch.png[,380,align=left]
+
+The name of a working branch should pair it with the issue it resolves.
+For example, if you're resolving `stargate/docs` issue #6500, you could name the working branch `sgdocs-6500`.
+--
+
+Now you're ready to <<next-steps,write or edit documentation>>.
+
+[#work-branch-cli]
+== Create a Working Branch from the Command Line
+
+These instructions assume you've xref:set-up-repository.adoc[forked, cloned, and configured the upstream and origin remotes] of a documentation repository.
+
+. Open a terminal and change into the repository directory that contains the files you want to edit.
+
+ $ cd path/to/repository-folder
+
+. <<base-branch,Choose the right branch>> to base your changes on and check it out.
+
+ $ git checkout name-of-base-branch
+
+. Download the latest changes from the upstream repository.
+
+ $ git pull upstream name-of-base-branch
+
+. Create a working branch from the base branch and checkout the working branch.
++
+--
+ $ git checkout -b sgdocs-####
+
+The name of a working branch should pair it with the issue it resolves.
+For example, if you're resolving `stargate/docs` issue #6500, you could name the working branch `sgdocs-6500`.
+--
+
+== Next Steps
+
+* xref:edit-pages.adoc[Edit existing documentation using Atom].
+* xref:edit-pages.adoc#edit-server[Step through editing a page in the Server Component].
+* xref:add-pages.adoc[Add new documentation pages].

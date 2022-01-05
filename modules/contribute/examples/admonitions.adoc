@@ -1,0 +1,23 @@
+// tag::basic[]
+TIP: Positional parameters are set using the `-args` query parameter.
+
+NOTE: The `starctl` command is used to start Stargate manually.
+
+IMPORTANT: Before starting the demo, be sure that Docker is running on your platform.
+
+WARNING: By default, public access to your database is not restricted. Access to your database is possible via public internet.
+
+CAUTION: Don't stick forks in power sockets.
+// end::basic[]
+
+// tag::compound[]
+[IMPORTANT]
+.Optional Title
+====
+Use an example block to create an admonition that contains compound content, such as:
+
+* Lists
+* Multiple paragraphs
+* Source code
+====
+// end::compound[]

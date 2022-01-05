@@ -1,0 +1,30 @@
+= Repository organization
+:url-git-sg:  https://github.com/stargate
+:url-git-sgdocs: {url-git-sg}/docs
+:url-git-sgantora-ui: {url-git-sg}/antora-ui-stargate
+:url-git-sgdocker: {url-git-sg}/docker-images
+
+//Stargate uses Antora to manage and build stargate.io/docs.
+
+The Stargate documentation is stored in a single repository that is
+organized in a standard directory structure.
+
+[#repo-urls]
+// LLP 10.08.21 Not currently used, but when we break out the examples, we'll have
+// multiple repos.
+== Documentation repository roster
+
+The following repositories accept contributions via the regular workflow and use a standard branch pattern.
+
+* {url-git-sgdocs}[Stargate Docs^]
+//* {url-git-sgexamples}[Code examples^]
+
+[#dir-structure]
+== Directory structure and key files
+
+include::partial$component-terms.adoc[]
+
+== Next steps
+
+. xref:create-branches.adoc#base-branch[Choose a base branch].
+. xref:create-branches.adoc#work-branch-atom[Create a working branch in Atom] or xref:create-branches.adoc#work-branch-cli[from the command line].

@@ -1,0 +1,70 @@
+= Edit existing documentation
+
+The following sections describe the document editing process using the Atom editor; however, you can write AsciiDoc in the plain text editor or integrated development environment (IDE) of your choice.
+
+== General editing steps using Atom
+
+. Make sure you've added the repository directory to the *Project* panel, xref:create-branches.adoc[created a working branch], and switched to it.
+The name of your working branch is displayed next to the image:git-branch.svg[,16,role=icon] branch icon at the bottom of the editor.
+. In the project panel, expand the repository to view its folders and files.
+Locate the page, partial, or example file you want to edit and double click on it to open it in an editor pane.
+.. If you're not familiar with the structure of a documentation component, see xref:repositories.adoc#dir-structure[Directory Structure and Key Files].
+. Edit the content.
+The <<edit-server,next section>> steps through an editing scenario.
+.. For AsciiDoc tips and help, see xref:basics.adoc[AsciiDoc Basics].
+. If you installed the xref:install-git-and-editor.adoc#adoc-packages[AsciiDoc Preview package], go to menu:Packages[AsciiDoc Preview > Toggle Preview].
+A basic preview of the rendered document is displayed in an adjacent pane.
+. Press kbd:[Ctrl,S] to save the file.
+
+When your edits are complete, you're ready to xref:build-site.adoc[build the site locally] on your device and check changes.
+
+[#edit-docs]
+== Editing a page in stargate/docs
+
+Let's step through editing a stargate/docs component page using Atom.
+The syntax changes described in this section represent some of the improvements you can make.
+
+=== 1. Open the file
+
+In the project panel, in the image:repo.svg[,16,role=icon] docs repository, go to menu:modules[developers-guide > pages].
+Double click on _graphql-first-using.adoc_ to open the AsciiDoc file in the editor pane.
+
+image::edit-page-in-atom.png[]
+
+=== 2. Set and reference an attribute
+
+The Docs team wants to use some text in the page's HTML description meta-tag.
+Set the `description` attribute in the xref:pages.adoc#doc-title[header of the document].
+
+[source,asciidoc]
+----
+the Stargate GraphQL API (Schema-first)
+:description: Describes the graphQL schema-first method of using the Stargate GraphQL API.
+----
+
+If the description is a paragraph, enter a space after the end of the first sentence, then a `\` so the heaader is not broken.
+Descriptions can use xref:pages.adoc#ventilate[ventilated prose (aka sentence per line)], just as the rest of the documentation does.
+
+[source,asciidoc]
+----
+the Stargate GraphQL API (Schema-first)
+:description: Describes the graphQL schema-first method of using the Stargate GraphQL API. \
+If you need to add another sentence to the description, use the `\`.
+----
+
+=== 5. Preview and save the file
+
+If you installed the  xref:install-git-and-editor.adoc#adoc-packages[AsciiDoc Preview package], go to menu:Packages[AsciiDoc Preview > Toggle Preview].
+A basic preview of the rendered document is displayed in an adjacent pane.
+
+image::preview.png[]
+
+Press kbd:[Ctrl,S] to save the file.
+In the project panel, the file name will change color, indicating it's unstaged.
+
+Before submitting your pull request for the changes, you need to xref:build-site.adoc[build the site locally] to check your changes on your device.
+
+== Next steps
+
+. xref:build-site.adoc[Build the site locally using your changes].
+. xref:send-pr.adoc[Stage and commit your changes].
