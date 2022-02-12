@@ -30,7 +30,10 @@ After you fork the repository, clone it to your device.
 . Create or select the folder where you want to store the repository on your device.
 . Open a terminal and change into the selected folder.
 
- $ cd path/to/folder
+[source, console]
+----
+$ cd path/to/folder
+----
 
 . Go to your repository on GitHub, and click btn:[Clone or download].
 . Click the clipboard icon to copy the repository's Git URL.

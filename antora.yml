@@ -32,5 +32,4 @@ asciidoc:
     collection: 'fitness'
     gkeyspace: 'library'
 nav:
-- modules/ROOT/nav.adoc
 - modules/contribute/nav.adoc

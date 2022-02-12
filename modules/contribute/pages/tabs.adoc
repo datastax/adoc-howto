@@ -1,20 +1,18 @@
 = Tabs sets
-:tabs:
 
 == Set and create tabs
 
-To use the tabs block in a page, set the `tabs` attribute in the document header.
+//To use the tabs block in a page, set the `tabs` attribute in the document header.
 
-----
-= Page Title
-:tabs:
-----
+//----
+//= Page Title
+//----
 
 Then, in the body of your page, you can create a set of tabs.
 
 [line-comment=//]
 ....
-[{tabs}] <1>
+[tabs] <1>
 ==== <2>
 Tab 1 Title:: <3>
 + <4>
@@ -44,7 +42,7 @@ This is the content of the second tab. <7>
 
 This tabs set is rendered as:
 
-[{tabs}]
+[tabs]
 ====
 Tab 1 Title::
 +
