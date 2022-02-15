@@ -1,6 +1,6 @@
-name: antora-test-project
+name: adoc-how-to
 title: AsciiDoc How-To
-version: '6.1'
+version: '1.0'
 asciidoc:
   attributes:
     sectanchors: ''
