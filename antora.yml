@@ -30,5 +30,3 @@ asciidoc:
     namespace: 'myworld'
     collection: 'fitness'
     gkeyspace: 'library'
-nav:
-- modules/contribute/nav.adoc
