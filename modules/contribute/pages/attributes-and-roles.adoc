@@ -90,7 +90,7 @@ These roles are often combined, as you can see in this example:
 Page contents.
 ----
 
-You can see the `tiles -toc` page role combination in action on the xref:server:getting-started:starter-kits.adoc[Starter Kits page].
+You can see the `tiles -toc` page role combination in action on the Starter Kits page.
 The tiles role arranges the secondary section titles as tiles (in two columns).
 The -toc role tells the UI template not to add a table of contents (TOC) to the page.
 

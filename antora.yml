@@ -1,5 +1,5 @@
-name: adoc-how-to
-title: AsciiDoc How-To
+name: stargate
+# title: AsciiDoc How-To
 version: '1.0'
 asciidoc:
   attributes:
