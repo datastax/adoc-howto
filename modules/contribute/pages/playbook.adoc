@@ -56,9 +56,9 @@ This UI bundle file is retrieved from the antora UI repository.
 The bundle is always a zipped file.
 
 Any UI files that differ from the base UI bundle file created in the
-`antora-ui-default` repository are placed in the `supplemental-ui` directory.
+`antora-ui-docs` repository are placed in the `supplemental-ui` directory.
 For example, the banner icon for each documentation set is different.
-The PNG file for that banner is placed in `supplemental-ui`. 
+The image file for that banner is placed in `supplemental-ui`. 
 This directory is also useful for testing variations in building the docs, as any file in `supplemental-ui` overrides the file included in the zipped UI bundle file.
 
 We override the output directory, using `assets`, as Jekyll does not
