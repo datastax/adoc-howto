@@ -20,5 +20,7 @@ asciidoc:
   attributes:
     source-highlighter: highlightjs
     page-pagination: ''
+    idprefix: ''
+    idseparator: '-'
   extensions:
   - ./lib/tabs-block.js

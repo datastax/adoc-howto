@@ -54,7 +54,7 @@ To unset (turn off) an attribute on a page, prefix the name with a bang (`!`).
 ----
 <1> Unset `sectids` with a `!` so that sections IDs are not generated from the section titles in the document.
 
-See the `site-local.yaml` and `site-publish.yaml` Antora playbooks in the link:https://github.com/stargate/docs[Stargate docs repo] to review which
+See the `site-local.yaml` and `site-publish.yaml` Antora playbooks in the https://github.com/stargate/docs[Stargate docs repo] to review which
 AsciiDoc attributes are currently set and unset for all of the Stargate documentation pages.
 
 // LLP 10.08.21 Need to decide on custom roles and whether they are needed
@@ -132,7 +132,7 @@ It's up to the UI to give these attributes meaning.
 The Stargate UI supports the following custom page attributes:
 
 page-edition:: Used to add a blue badge under the page title that indicates the server edition to which the content applies.
-The badge automatically links to \https://www.couchbase.com/products/editions.
+The badge automatically links to \https://www.stargate.io/docs.
 The value of the attribute is used as the text of the badge.
 
 page-status:: Used to add an orange badge under the page title that indicates the status of the page, such as beta or the minimum software version to which the content applies.
