@@ -75,7 +75,7 @@ nav:
 To link from this page, to the What's New? page in the another component, you write:
 
 [source,asciidoc]
-xref:server:introduction:whats-new.adoc[What's new] in Stargate?
+xref:developers-guide:concepts:concepts.adoc[Concepts] in Stargate?
 
 This renders as:
 
