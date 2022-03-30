@@ -1,6 +1,6 @@
 name: stargate
 # title: AsciiDoc How-To
-version: '1.0'
+version: ~
 asciidoc:
   attributes:
     sectanchors: ''
