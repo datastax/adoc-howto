@@ -9,6 +9,9 @@ content:
     - url: .
       branches: HEAD
 
+output: 
+  dir: ~/CLONES/adoc-howto/docs/build/adoc-only
+
 ui:
   bundle:
     url: https://github.com/stargate/antora-ui-stargate/releases/download/v.0.7/ui-bundle.zip

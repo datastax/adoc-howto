@@ -1,0 +1,38 @@
+name: docs
+title: AsciiDoc How-To
+version: ~
+asciidoc:
+  attributes:
+    company: 'DataStax'
+    astra_db: 'Astra DB'
+    astra_stream: 'Astra Streaming'
+    astra_generic: 'Astra'
+    classic: 'classic'
+    classic_cap: 'Classic'
+    serverless: 'serverless'
+    serverless_cap: 'Serverless'
+    sectanchors: ''
+    sectlinks: ''
+    auth_token: '$ASTRA_DB_APPLICATION_TOKEN'
+    base_url: 'http://$ASTRA_CLUSTER_ID-$ASTRA_REGION.apps.astra.datastax.com'
+    base_rest_schema: '/api/rest/v2/schemas/keyspaces'
+    base_doc_schema: '/api/rest/v2/schemas/namespaces'
+    base_rest_api: '/api/rest/v2/keyspaces'
+    base_doc_api: '/api/rest/v2/namespaces'
+    base_gql_schema: '/api/graphql-schema'
+    base_gql_api: '/api/graphql'
+    rkeyspace: 'users_keyspace'
+    rtable: 'users'
+    namespace: 'myworld'
+    collection: 'fitness'
+    gkeyspace: 'library'
+    ASTRA_CLUSTER_ID: '8319febd-e7cf-4595-81e3-34f45d332d2a'
+    ASTRA_REGION: 'us-east1'
+    ASTRA_USERNAME: 'polandll'
+    ASTRA_PASSWORD: '12345abcd'
+    support_url: 'https://houston.datastax.com/hc/requests/new'
+    astra_docs_base_url: 'https://docs.datastax.com/en/astra/docs'
+nav:
+- modules/ROOT/cnav.adoc
+- modules/cql_using/nav.adoc
+- modules/cql_reference/nav.adoc
