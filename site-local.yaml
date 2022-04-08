@@ -10,7 +10,7 @@ content:
       branches: HEAD
 
 output: 
-  dir: ~/CLONES/adoc-howto/docs/build/adoc-only
+  dir: ~/CLONES/adoc-howto/build/adoc-only
 
 ui:
   bundle:

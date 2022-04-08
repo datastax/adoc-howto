@@ -21,7 +21,7 @@ Document attributes are optional.
 ----
 = The Title of My Document
 :page-type: concept
-:url-getting-started: https://stargate.io/docs/stargate/1.0/quickstart/quickstart.html
+:url-getting-started: https://stargate.io/docs/stargate/1.0/quickstart/quickstart-overview.html
 
 This is the body of my document.
 Let's get started with Stargate!
