@@ -1,8 +1,1 @@
-name: stargate
-# title: AsciiDoc How-To
-version: ~
-asciidoc:
-  attributes:
-    sectanchors: ''
-    sectlinks: ''
-    experimental: ''
+antora-sg.yml
