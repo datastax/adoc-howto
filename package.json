@@ -1,6 +1,7 @@
 {
   "name": "docs",
   "scripts": {
+
     "build:prod": "npm run build:publish",
     "build:dev": "npm run build:local",
     "build:publish:contribute": "antora --fetch --clean site-publish-contribute.yaml",
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/datastax/adoc-howtogit"
   },
   "dependencies": {
-    "@antora/cli": "~.0.1",
+    "@antora/cli": "~3.0.1",
     "@antora/site-generator-default": "~3.0.1",
     "@openapitools/openapi-generator-cli": "^2.4.26",
     "mobx": "^6.1.0",
