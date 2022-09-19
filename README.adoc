@@ -1,11 +1,11 @@
-= DataStax Docs Contributor Guide
+= DataStax Docs Contributor's Guide
 :toc: macro
-:product: Docs Contributor Guide
+:product: Docs Contributor's Guide
 :product-repo-name: adoc-howto
 :product-repo-name-long: datastax/adoc-howto
 :product-repo-link: https://github.com/datastax/adoc-howto.git
 :product-branch-name: main
-:docset-name: contributor-guide
+:docset-name: contributors-guide
 :product-branch-link: https://github.com/datastax/adoc-howto/tree/main
 :install-git-link: https://github.com/git-guides/install-git
 :create-pr-link: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request

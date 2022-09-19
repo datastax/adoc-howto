@@ -1,25 +1,25 @@
 {
-  "name": "docs",
+  "name": "contributors-guide",
   "scripts": {
-    "build:prod": "npm run build:publish",
-    "build:dev": "npm run build:local",
-    "build:publish:contribute": "antora --fetch --clean site-publish-contribute.yaml",
-    "build:local:contribute": "antora --stacktrace --fetch --clean site-local-contribute.yaml"
+    "build:prod:contributors-guide": "npm run build:publish:contributors-guide",
+    "build:dev:contributors-guide": "npm run build:local:contributors-guide",
+    "build:publish:contributors-guide": "antora --log-level error --fetch --clean playbooks/site-publish-contributors-guide.yaml",
+    "build:local:contributors-guide": "antora --stacktrace --fetch --clean playbooks/site-local-contributors-guide.yaml",
+    "build:linkinator:contributors-guide": "npx linkinator https://docs.datastax.com/en/contributors-guide/docs/ --recurse --skip ' https://localhost?'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datastax/adoc-howtogit"
+    "url": "git+https://github.com/datastax/adoc-howto.git"
   },
   "dependencies": {
-    "@antora/cli": "~.0.1",
+    "@antora/cli": "~3.0.1",
     "@antora/site-generator-default": "~3.0.1",
-    "@openapitools/openapi-generator-cli": "^2.4.26",
-    "mobx": "^6.1.0",
-    "openapi-generator": "^0.1.39",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "redoc": "^2.0.0-rc.48",
-    "redoc-cli": "^0.10.4",
-    "styled-components": "^5.1.1"
+    "linkinator": "~3.0.3",
+    "async": "~3.2.4",
+    "mobx": "~6.0.4",
+    "react": "~16.8.4",
+    "react-dom": "~16.8.4",
+    "rxjs": "~7.0.1",
+    "styled-components": "~5.1.1"
   }
 }
