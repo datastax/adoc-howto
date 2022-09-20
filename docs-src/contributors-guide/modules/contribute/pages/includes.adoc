@@ -136,7 +136,7 @@ xref:attributes-and-roles.adoc#custom-page-attributes[page-status] attribute.
 
 Renders as:
 
-include::home:ROOT:partial$developer-preview.adoc[]
+link:home:ROOT:partial$developer-preview.adoc[]
 
 == Learn more
 

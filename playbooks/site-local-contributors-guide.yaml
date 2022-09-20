@@ -15,7 +15,7 @@ content:
   sources:
   - url: ./..
     branches: HEAD
-    start_path: docs-src/contributors-guide-core
+    start_path: docs-src/contributors-guide
 
 ui:
   bundle:

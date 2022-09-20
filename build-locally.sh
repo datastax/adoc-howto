@@ -63,7 +63,7 @@ case $1 in
   contributors-guide)
     echo "product is contributors-guide"
     echo "make antora.yml links"
-    cd docs-src/contributors-guide-core
+    cd docs-src/contributors-guide
     rm antora.yml; ln -s antora-contributors-guide.yml antora.yml
     cd ../..
     echo "run the build"

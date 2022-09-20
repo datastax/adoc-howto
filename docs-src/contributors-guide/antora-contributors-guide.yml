@@ -1,7 +1,7 @@
 name: docs
 title: DataStax Docs Contributor's Guide
 version: ~
-start_page: index.adoc
+start_page: contribute:index.adoc
 
 nav:
-- modules/ROOT/nav.adoc
+- modules/contribute/nav.adoc
