@@ -47,7 +47,7 @@ Let's go to the xref:ROOT:index.adoc[documentation home page].
 
 This renders as:
 
-Let's go to the xref:ROOT:index.adoc[documentation home page].
+Let's go to the xref:contribute:index.adoc[documentation home page].
 
 [#component-coordinate]
 == Link to a page in a different component
@@ -79,7 +79,7 @@ xref:developers-guide:concepts:concepts.adoc[Concepts] in Stargate?
 
 This renders as:
 
-xref:developers-guild:concepts:concepts.adoc[Concepts] in Stargate?
+link:developers-guild:concepts:concepts.adoc[Concepts] in Stargate?
 
 [#link-to-element]
 == Link to an element in a page
